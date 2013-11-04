@@ -18,7 +18,7 @@ class SocialServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('zejesago/laravel-social');
+		$this->package('zejesago/laravel-social', null, __DIR__.'/../../..');
 	}
 
 	/**
