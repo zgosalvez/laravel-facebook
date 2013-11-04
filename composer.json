@@ -1,0 +1,23 @@
+{
+    "name": "zejesago/laravel-social",
+    "description": "A social component for Laravel.",
+    "keywords": ["laravel", "facebook"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zennon Gosalvez",
+            "email": "zgosalvez@alumni.ateneo.edu"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.*",
+        "facebook/php-sdk": "3.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Zejesago\\Laravel\\Social\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
