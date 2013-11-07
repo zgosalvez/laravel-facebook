@@ -19,5 +19,9 @@
             "Zejesago\\Laravel\\Social\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "1.0.x-dev"
+        }
+    }
 }
