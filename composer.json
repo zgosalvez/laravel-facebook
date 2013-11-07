@@ -19,10 +19,5 @@
         "psr-0": {
             "Zejesago\\Laravel\\Social\\": "src/"
         }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-develop": "1.0.x-dev"
-        }
     }
 }
