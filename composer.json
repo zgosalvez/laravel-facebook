@@ -6,7 +6,8 @@
     "authors": [
         {
             "name": "Zennon Gosalvez",
-            "email": "zgosalvez@alumni.ateneo.edu"
+            "email": "zgosalvez@alumni.ateneo.edu",
+            "homepage": "https://coderwall.com/zejesago"
         }
     ],
     "require": {
