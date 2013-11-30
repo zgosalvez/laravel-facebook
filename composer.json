@@ -1,6 +1,6 @@
 {
-    "name": "zejesago/laravel-social",
-    "description": "A social component for Laravel.",
+    "name": "zejesago/laravel-facebook",
+    "description": "A Facebook component for Laravel.",
     "keywords": ["laravel", "facebook"],
     "license": "MIT",
     "authors": [
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Zejesago\\Laravel\\Social\\": "src/"
+            "Zejesago\\Laravel\\Facebook\\": "src/"
         }
     }
 }
