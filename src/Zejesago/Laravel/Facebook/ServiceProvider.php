@@ -21,9 +21,9 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider {
 	{
         $this->app->bind('Zejesago\Laravel\Facebook', function($app) {
         	return new \Facebook(array(
-        		'appId'      => $app['config']->get('laravel-facebook::appId'),
-        		'secret'     => $app['config']->get('laravel-facebook::secret'),
-        		'fileUpload' => $app['config']->get('laravel-facebook::fileUpload'),
+        		'appId'      => $app['config']->get('laravel-facebook::facebook.appId'),
+        		'secret'     => $app['config']->get('laravel-facebook::facebook.secret'),
+        		'fileUpload' => $app['config']->get('laravel-facebook::facebook.fileUpload'),
         	));
         });
 	}
