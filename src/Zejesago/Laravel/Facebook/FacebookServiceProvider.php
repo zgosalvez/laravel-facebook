@@ -1,6 +1,6 @@
 <?php namespace Zejesago\Laravel\Facebook;
 
-class ServiceProvider extends \Illuminate\Support\ServiceProvider {
+class FacebookServiceProvider extends \Illuminate\Support\ServiceProvider {
 
 	/**
 	 * Bootstrap the application events.
