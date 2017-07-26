@@ -6,8 +6,8 @@ A Facebook component for Laravel which leverages on Laravel's [Facades](http://l
 Normally:
 ```php
 $facebook = new Facebook(array(
-  'appId'  => 'YOUR_APP_ID',
-  'secret' => 'YOUR_APP_SECRET',
+  'app_id'     => 'YOUR_APP_ID',
+  'app_secret' => 'YOUR_APP_SECRET',
 ));
 
 // Get User ID
@@ -20,7 +20,7 @@ Now:
 $user = Z\Facebook::getUser();
 ```
 
-Laravel Facebook currently supports [Facebook 3.2](https://github.com/facebook/facebook-php-sdk) and [Laravel 4.0](http://laravel.com/).
+Laravel Facebook currently supports [Facebook 5.6](https://github.com/facebook/facebook-php-sdk) and [Laravel 4.0](http://laravel.com/).
 
 Installation
 -------------
