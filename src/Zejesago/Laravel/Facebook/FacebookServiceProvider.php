@@ -1,5 +1,7 @@
 <?php namespace Zejesago\Laravel\Facebook;
 
+use Facebook\Facebook;
+
 class FacebookServiceProvider extends \Illuminate\Support\ServiceProvider {
 
 	/**
@@ -20,10 +22,9 @@ class FacebookServiceProvider extends \Illuminate\Support\ServiceProvider {
 	public function register()
 	{
         $this->app->bind('Zejesago\Laravel\Facebook', function($app) {
-        	return new \Facebook(array(
-        		'appId'      => $app['config']->get('laravel-facebook::facebook.appId'),
-        		'secret'     => $app['config']->get('laravel-facebook::facebook.secret'),
-        		'fileUpload' => $app['config']->get('laravel-facebook::facebook.fileUpload'),
+        	return new Facebook(array(
+        		'app_id'     => $app['config']->get('laravel-facebook::facebook.appId'),
+        		'app_secret' => $app['config']->get('laravel-facebook::facebook.secret'),
         	));
         });
 	}
