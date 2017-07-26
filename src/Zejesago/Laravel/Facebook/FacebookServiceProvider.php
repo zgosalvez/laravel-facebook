@@ -27,8 +27,8 @@ class FacebookServiceProvider extends \Illuminate\Support\ServiceProvider {
         		'app_secret' => $app['config']->get('laravel-facebook::facebook.secret'),
         	));
 
-        	if (Session::has('facebook_access_token')) {
-                $fb->setDefaultAccessToken(Session::get('facebook_access_token'));
+        	if (\Session::has('facebook_access_token')) {
+                $fb->setDefaultAccessToken(\Session::get('facebook_access_token'));
             }
 
         	return $fb;
